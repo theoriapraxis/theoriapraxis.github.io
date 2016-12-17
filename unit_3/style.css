@@ -1,0 +1,17 @@
+body {
+	background: url("images/mountains.jpg");
+	background-size: cover;
+}
+
+p, ul {
+	font-weight: bold;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 48px;
+}
+
+.important {
+	font-size: 20px;
+}
