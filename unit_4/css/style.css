@@ -1,0 +1,77 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans');
+</style>
+
+body {
+
+	/*padding: top 25px right 30px bottom 25px left30px;*/
+
+}
+
+h1, h2 {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+
+.carouseltitle {
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Libre Franklin', sans-serif;
+	/*color: white;*/
+}
+
+.carouselproject {
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Libre Franklin', sans-serif;
+	/*color: white;*/
+}
+
+.carousellocation {
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Libre Franklin', sans-serif;
+	/*color: white;*/
+}
+
+#work {
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+#viewall {
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.projecttitle {
+	font-weight: medium;
+	font-size: 26px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.project {
+	font-size: 13px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.location {
+	font-size: 13px;
+	font-family: 'libre Franklin', sans-serif;
+}
+
+ul {
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.homefooter {
+	font-weight: bold;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
