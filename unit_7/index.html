@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Theoria + Praxis</title>
+
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header>
+				<p id="title">Theoria + Praxis</p>
+			</header>
+
+			<nav class="clearfix">
+				<div class="dropdown">
+					  <span>Menu</span>
+					  <div class="dropdown-content">
+					    <a href="#">About</a>
+						<a href="#">Work</a>
+						<a href="#">Contact</a>
+					  </div>
+				</div>
+				
+			</nav>	
+
+			<main class="clearfix">
+				<section id="lander">	
+			
+					<div class="carousel" id="slide1">
+						<div class="carouselcaption">	
+							<h1>Bringing Ideas to Life</h1>
+							<h4>Article / About</h4>
+							<h4>T+P Global</h4>
+						</div>
+					</div>
+
+					<div class="carousel" id="slide2">
+						<div class="carouselcaption">
+							<h1>Got Your Back</h1>
+							<h4>Project / Cryptodotty</h4>
+							<h4>T+P Rome</h4>
+						</div>
+					</div>
+					
+					<div class="carousel" id="slide3">
+						<div class="carouselcaption">
+							<h1>#doginsta'd</h1>
+							<h4>Project / MB Productions Ltd.</h4>
+							<h4>T+P London</h4>
+						</div>
+					</div>		
+					
+					<div class="carousel" id="slide4">
+						<div class="carouselcaption">
+							<h1>slipstreamr</h1>
+							<h4>Project / LCM</h4>
+							<h4>T+P London</h4>
+						</div>
+					</div>
+
+					<div class="carousel" id="slide5">
+						<div class="carouselcaption">
+							<h1>Balsam</h1>
+							<h4>Project / PB Ltd.</h4>
+							<h4>T+P London</h4>
+						</div>
+					</div>
+
+					<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("carousel");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 5000); // Change image every 5 seconds
+						}
+					</script>
+				</section>
+
+				<section id="projects" class="clearfix">
+					<div class="row" id="row1">
+						<div id="sectionheading">
+							<h3>Work</h3>
+							<a href="#"><h5>View All</h5></a>
+						</div>
+						
+						<div id="project1image">
+							<img src="images/market.jpg" alt="market" title="Project 1 image">
+						</div>
+
+						<div id="project2image">
+							<img src="images/arrow.jpg" alt="arrow" title="Project 2 image">
+						</div>
+
+						<div id="project2text">
+							<h4>Got Your Back</h4>
+							<h5>Project / Cryptodotty</h5>
+							<h5>T+P Rome</h5>
+						</div>
+					</div>
+
+					<div class="row" id="row2">
+						<div id="project3image">
+							<img src="images/carsmall.jpg" alt="car" title="Project 3 image">
+						</div>
+
+						<div id="project1text">	
+							<h4>MKT(S)</h4>
+							<h5>Project / LCM</h5>
+							<h5>T+P London</h5>
+						</div>
+
+						<div id="project5image">
+							<img src="images/tvsmall.jpg" alt="tv" title="Project 5 image">
+						</div>
+
+						<div id="project6image">
+							<img src="images/worksmall.jpg" alt="work" title="Project 6 image">
+						</div>
+					</div>
+
+					<div class="row" id="row3">
+						<div id="project3text">	
+							<h4>Balsam</h4>
+							<h5>Project / PB Ltd.</h5>
+							<h5>T+P London</h5>
+						</div>
+
+						<div id="project4image">
+							<img src="images/dogsmall.jpg" alt="dog" title="Project 4 image">
+						</div>
+
+						<div id="project5text">
+							<h4>slipstreamr</h4>
+							<h5>Project / LCM</h5>
+							<h5>T+P London</h5>
+						</div>
+
+						<div id="project6text">
+							<h4>Freespace</h4>
+							<h5>Project / BM Ltd.</h5>
+							<h5>T+P London</h5>
+						</div>	
+					</div>
+
+					<div class="row" id="row4">
+						<div id="row4box">
+						</div>
+
+						<div id="project4text">
+							<h4>#doginsta'd</h4>
+							<h5>Project / MB Productions Ltd.</h5>
+							<h5>T+P London</h5>
+						</div>
+					</div>
+				</section>
+			</main>	
+
+			<footer>
+				<section class="clearfix">
+					<div class="footer">
+						<p>Follow T + P</p>
+						<ul>
+							<li><a href="">Instagram</a></li>
+							<li><a href="">Snapchat</a></li>
+							<li><a href="">Linkedin</a></li>
+						</ul>
+					</div>
+					
+					<div class="footer">
+						<p>Office Location</p>
+						<ul>
+							<li>T+P London</li>
+							<li>Grenwood Road E8 1AB</li>
+							<li>t: +44 (0)749 769 3563</li>
+						</ul>
+					</div>
+					
+					<div class="footer">
+						<p>Contacts</p>
+						<ul>
+							<li>Business</li>
+							<li>e: dh@theoria-praxis.com</li>
+							<li>Creative</li>
+							<li>e: bw@theoria-praxis.com</li>
+							<li>Media</li>
+							<li>e: media@theoria-praxis.com</li>
+						</ul>
+					</div>
+					
+					<div class="footer">
+						<p>Legal</p>
+						<ul>
+							<li>© Theoria + Praxis 2017</li>
+							<li>Privacy Notice</li>
+							<li>Terms of Use</li>
+						</ul>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>
