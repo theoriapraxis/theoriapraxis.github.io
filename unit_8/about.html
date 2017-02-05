@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Theoria + Praxis - Bringing Ideas to Life</title>
+
+		<!-- <meta charset="UTF-8"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/lazyload.min.js"></script>
+		<!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header class="clearfix">
+				<p id="title"><a href="index.html">Theoria + Praxis</a></p>
+				<label for="toggle">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</label>
+				<input type="checkbox" id="toggle">
+				<nav>
+					<a href="about.html">About</a>
+					<a href="work.html">Work</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</header>
+
+			<main class="clearfix">
+
+				<p id="about">We are a full service research agency created to bridge the gap from Theoria "thinking" to Praxis "doing." Taking the first step is the hardest part of the creative process and we're here to work with you to workshop your ideas, conduct research, and develop a plan to get you doing.</p>
+				
+			</main>	
+
+
+			<footer>
+				<div class="clearfix">
+					<div class="footer">
+						<p>Follow T + P</p>
+						<ul>
+							<li><a href="">Instagram</a></li>
+							<li><a href="">Snapchat</a></li>
+							<li><a href="">Linkedin</a></li>
+						</ul>
+					</div>
+					
+					<div class="footer">
+						<p>Office Location</p>
+						<ul>
+							<li>T+P London</li>
+							<li>Grenwood Road E8 1AB</li>
+							<li>t: +44 (0)749 769 3563</li>
+						</ul>
+					</div>
+
+					<div class="footer">
+						<p>Contacts</p>
+						<ul>
+							<li>Business</li>
+							<li>e: dh@theoria-praxis.com</li>
+							<li>Creative</li>
+							<li>e: bw@theoria-praxis.com</li>
+							<li>Media</li>
+							<li>e: media@theoria-praxis.com</li>
+						</ul>
+					</div>
+					
+					<div class="footer">
+						<p>Legal</p>
+						<ul>
+							<li>© Theoria + Praxis 2017</li>
+							<li><a href="">Privacy Notice</a></li>
+							<li><a href="">Terms of Use</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+			<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("carousel");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 5000); // Change image every 5 seconds
+						}
+			</script>
+		</div>
+	</body>
+</html>

@@ -13,7 +13,6 @@ body {
 
 header {
 	padding: 1.25em;
-	float: left;
 }
 
 header a {
@@ -22,19 +21,39 @@ header a {
 
 
 nav {
-	padding: .8em;
+	padding: .5em;
 	float: right;
-	margin-top: .85em;
+	margin-top:;
 }
 
-span, nav a {
+nav a {
 	font-family: 'Libre Franklin', sans-serif;
 	color: black;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-weight: bold;
 	letter-spacing: .125em;
-	padding: 1.25em;
-	margin: 0 1.25em;
+	padding: .25em;
+	margin: 0 .5em;
+}
+
+label {
+	display:none;
+	padding: 20px 0 20px 20px;
+}
+
+span {
+	font-weight:bold;
+}
+
+.bar {
+	width:25px;
+	height:4px;
+	margin:2px;
+	background-color:black;
+}
+
+#toggle {
+	display:none;
 }
 
 nav a:link {
@@ -94,13 +113,13 @@ h5 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.5em;
+	font-size:1.25em;
 	line-height: 1.5em;
 }
 
 li {
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.25em;
+	font-size:1em;
 	line-height: 1.5em;
 }
 
@@ -115,26 +134,10 @@ a {
 
 img {
 	width:100%;
+	display: block;
+	height: auto;
+	min-height: 300px;
 }
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 10em;
-    box-shadow: 0em .5em 1em 0em rgba(0,0,0,0.2);
-    padding: 1em 1em;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
- }
 
 .carousel {
 	width:100%;
@@ -177,6 +180,7 @@ img {
 	text-transform: uppercase;
 	line-height: 1.5em;
 	font-weight: bold;
+	display: inline-block;
 }
 
 #lander {
@@ -389,6 +393,9 @@ img {
     height: 100%;
     width: 100%;
     cursor: pointer;
+    top: 0;
+    right: 0;
+    left:  0;
 }
 
 .hover:hover {
@@ -396,6 +403,12 @@ img {
 }
 #project1image, #project2image, #project3image, #project4image, #project5image, #project6image, #sectionheading, #project1text, #project2text, #project3text, #project4text, #project5text, #project6text {
     position: relative;
+}
+
+#about {
+	display: inline-block;
+	padding: 30px;
+	margin: 20px;
 }
 
 @media screen and (max-width: 1305px){
@@ -426,37 +439,42 @@ img {
 }
 
 @media screen and (max-width:860px){
-	header, nav {
+	header {
 		float: none;
-		text-align: center;
 	}
 
-	nav a:link {
+	nav {
+		display: none;
+	}
+
+	nav a {
 	display: block;
 	padding: .5em;
 	margin:  0 .5em;
 	}
 
+	label {
+		display: block;
+		float: right;
+		padding-top: 5px;
+	}
+
+	#toggle:checked + nav{
+		display:block;
+		clear:both;
+	}
+
+
 	body {
 	font-size: 14px;
 	}
 
-	.dropdown {
-	    position: relative;
-	    display: inline-block;
+	h1 {
+	font-size: 2.5em;
 	}
 
-	.dropdown-content {
-	    display: none;
-	    position: relative;
-	    background-color: white;
-	    box-shadow: none;
-	    padding: 1em;
-	    z-index: 1;
-	}
-
-	.dropdown:hover .dropdown-content {
-	    display: block;
+	h4 {
+	font-size: 1em;
 	}
 
 	.carousel {
@@ -592,6 +610,16 @@ img {
 
 footer {
 	font-size: .70em;
+}
+
+#projects{
+	margin-top: 19em;
+}
+
+.carouselcaption{
+	position: absolute;
+	color: black;
+	bottom: -10px;
 }
 
 }
