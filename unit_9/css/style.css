@@ -390,9 +390,6 @@ img {
 	footer {
 	font-size: 1em;
 }
-	.img {
-		min-height: 600px;
-	}
 }
 
 @media screen and (max-width: 1125px){
