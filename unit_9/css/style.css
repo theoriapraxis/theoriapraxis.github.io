@@ -576,4 +576,18 @@ img {
 	}
 }
 
+@media screen and (max-width: 450px){
+
+	#projects{
+	margin-top: 19em;
+	}
+
+	.carouselcaption{
+	position: absolute;
+	color: black;
+	bottom: -15em;
+	}
+}
+}
+
 
