@@ -364,10 +364,10 @@ img {
 
 @media screen and (min-width: 1305px){
 	footer {
-	font-size: .65em;
+	font-size: 1em;
 }
 	.img {
-		min-height: 900px;
+		min-height: 600px;
 	}
 }
 
@@ -376,7 +376,7 @@ img {
 	font-size: 15px;
 	}
 	footer {
-	font-size: .55em;
+	font-size: .75em;
 }
 }
 
