@@ -361,10 +361,14 @@ img {
 	margin: 20px;
 }
 
-@media screen and (max-width: 1305px){
+
+@media screen and (min-width: 1305px){
 	footer {
 	font-size: .65em;
 }
+	.img {
+		min-height: 900px;
+	}
 }
 
 @media screen and (max-width: 1125px){
