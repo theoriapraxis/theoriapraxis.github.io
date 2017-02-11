@@ -225,6 +225,10 @@ img {
 	border-image-width:0;
 	float: left;
 	height: 40%;
+	background-image: url(../images/marketsmall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #project1text {
@@ -244,6 +248,10 @@ img {
 	border-image-width: 0;
 	float: left;
 	height: 20%;
+	background-image: url(../images/arrow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #project2text {
@@ -264,6 +272,10 @@ img {
 	border-image-width:0;
 	float: left;
 	clear: both;
+	background-image: url(../images/carsmall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #project3text {
@@ -284,6 +296,10 @@ img {
 	height: 20%;
 	border-image-width:0;
 	float: left;
+	background-image: url(../images/dogsmall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #project4text {
@@ -303,6 +319,10 @@ img {
 	height: 20%;
 	border-image-width: 0;
 	float: left;
+	background-image: url(../images/tvsmall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #project5text {
@@ -322,6 +342,10 @@ img {
 	height: 20%;
 	border-image-width:0;
 	float: left;
+	background-image: url(../images/worksmall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #project6text {
@@ -373,26 +397,14 @@ img {
 
 @media screen and (max-width: 1125px){
 	body {
-	font-size: 15px;
+	font-size: 17px;
 	}
 	footer {
 	font-size: .75em;
 }
 }
 
-@media screen and (max-width: 1000px){
-	body {
-	font-size: 14.75px;
-}
-}
-
-@media screen and (max-width: 950px){
-	body {
-	font-size: 14.5px;
-}
-}
-
-@media screen and (max-width:860px){
+@media screen and (max-width:1000px){
 	header {
 		float: none;
 	}
@@ -414,7 +426,7 @@ img {
 	}
 
 	body {
-	font-size: 14px;
+	font-size: 16px;
 	}
 
 	h1 {
