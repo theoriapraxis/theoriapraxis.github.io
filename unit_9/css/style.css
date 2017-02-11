@@ -600,7 +600,18 @@ img {
 	color: black;
 	bottom: -14em;
 	}
-}
+
+	#title {
+	font-size: 1.25em;
+	}
+
+	#menu{
+	font-family: 'Libre Franklin', sans-serif;
+	color: black;
+	font-size: .65em;
+	font-weight: bold;
+	letter-spacing: .125em;
+	margin: -.5em 1.1em;
 }
 
 
