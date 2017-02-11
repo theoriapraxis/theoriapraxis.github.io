@@ -8,7 +8,7 @@
 }
 
 body {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 header {
@@ -18,7 +18,6 @@ header {
 header a {
 	color: black;
 }
-
 
 nav {
 	padding: .5em;
@@ -61,16 +60,10 @@ nav a:active {
 
 }
 
-main {
-}
-
-section {
-}
-
 footer {
 	background-color: black;
-	padding:2em;
-	font-size: .75em;
+	padding:4em 2em;
+	font-size: 1em;
 	color: white;
 }
 
@@ -128,13 +121,6 @@ img {
 	min-height: 300px;
 }
 
-.bar {
-	width:25px;
-	height:4px;
-	margin:2px;
-	background-color:black;
-}
-
 .carousel {
 	width:100%;
 	height:46.875em;
@@ -145,13 +131,6 @@ img {
 .carouselcaption {
 	padding: 1.25em;
 	color: white;
-}
-
-.footer {
-	padding: 3em 1.25em;
-	margin: 1em;
-	width: 20%;
-	float: left;
 }
 
 .clearfix:after {
@@ -167,7 +146,6 @@ img {
 .mobile {
 	display:none;
 }
-
 
 .desktop {
 	display:block;
@@ -185,6 +163,15 @@ img {
 
 .hover:hover {
 	background-color: rgba(64, 64, 63, 0.31);
+}
+
+#menu{
+	font-family: 'Libre Franklin', sans-serif;
+	color: black;
+	font-size: .75em;
+	font-weight: bold;
+	letter-spacing: .125em;
+	margin: -.5em 1.1em;
 }
 
 #toggle {
@@ -208,38 +195,6 @@ img {
 
 #slide1 {
 	background:url(../images/boy.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#slide2 {
-	background:url(../images/arrowbig.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#slide3 {
-	background:url(../images/dog.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#slide4 {
-	background:url(../images/tv.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#slide5 {
-	background:url(../images/car.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -382,7 +337,6 @@ img {
 }
 
 #row4box {
-	background-color: white;
 	border-image-width: 0;
 	width: 20%;
 	height: 20%;
@@ -391,7 +345,6 @@ img {
 }
 
 #row4box2 {
-	background-color: white;
 	border-image-width: 0;
 	width: 40%;
 	height: 20%;
@@ -605,7 +558,7 @@ img {
 	}
 
 	footer {
-	font-size: .70em;
+	font-size: 1em;
 	}
 
 	#projects{
