@@ -111,7 +111,11 @@ ul {
 
 a {
 	text-decoration:none;
-	color: white;
+	color: black;
+}
+
+a:hover {
+	color: grey;
 }
 
 img {
@@ -193,12 +197,12 @@ img {
 	display: inline-block;
 }
 
-#slide1 {
+/*#slide1 {
 	background:url(../images/sky.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 #projects {
